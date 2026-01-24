@@ -12,17 +12,13 @@ A development kit is hardware designed to help engineers get started with a spec
 ## References
 
 1. Nordic Semiconductor. (n.d.).
-   *About Nordic Semiconductor*.
-   <https://www.nordicsemi.com/About-us>
+   *[About Nordic Semiconductor](https://www.nordicsemi.com/About-us)*.
 
 2. EDN Network. (n.d.).
-   *Development and evaluation kits*.
-   <https://www.edn.com/development-and-evaluation-kits/>
+   *[Development and evaluation kits](https://www.edn.com/development-and-evaluation-kits/)*.
 
 3. Nordic Semiconductor. (n.d.).
-   *nRF5340 System-on-Chip (SoC)*.
-   <https://www.nordicsemi.com/Products/nRF5340>
+   *[nRF5340 System-on-Chip (SoC)](https://www.nordicsemi.com/Products/nRF5340)*.
 
 4. Nordic Semiconductor. (n.d.).
-   *nRF5340 Development Kit*.
-   <https://www.nordicsemi.com/Products/Development-hardware/nRF5340-DK>
+   *[nRF5340 Development Kit](https://www.nordicsemi.com/Products/Development-hardware/nRF5340-DK)*.
