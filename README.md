@@ -11,9 +11,9 @@ The goal of this repository is to build a solid understanding of the nRF5340 pla
 > **Definition: Development kit**  
 A development kit is hardware designed to help engineers get started with a specific technology for evaluation and prototyping. A well-designed kit is typically centered around a primary feature, while also including secondary components and connectors for power, programming, and communication. Development kits are not intended to serve as production reference designs.
 
-### Dual-core SoC
+### nRF5340 SoC
 
-The primary component of the kit is the nRF5340 SoC, which integrates two Arm® Cortex®-M33 processors referred to as the application processor and the network processor.
+The primary component of the kit is the nRF5340 SoC, which integrates two Arm® Cortex®-M33 processors referred to as the Application core and the Network core. Each core has its own flash memory and RAM for code and data storage. The SoC also provides a set of peripherals associated with each core. The Application core has access to a broader set of peripherals; however, the radio subsystem is owned by the Network core.
 
 ## References
 
@@ -31,3 +31,6 @@ The primary component of the kit is the nRF5340 SoC, which integrates two Arm® 
 
 5. Nordic Semiconductor. (n.d.).
    *nRF5340 DK Product Brief (Version 1.1)*.
+
+6. Nordic Semiconductor. (February 2025).
+   *nRF5340 Product Specification (Version 1.6)*.
