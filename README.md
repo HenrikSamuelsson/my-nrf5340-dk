@@ -23,6 +23,12 @@ In addition to the external headers, the development kit includes a small set of
 
 The board also integrates external non-volatile memory connected via the QSPI interface. This memory can be used for data storage or, depending on configuration, for execute-in-place (XIP) use cases and experimentation with memory hierarchies.
 
+### Power Supply Options
+
+During development, the nRF5340 DK is most conveniently powered via the on-board USB connector, which provides both power and access to the integrated debugger. This is the typical setup for firmware development, debugging, and experimentation.
+
+In addition to USB power, the development kit supports several alternative power supply options intended for flexibility and in-field testing. These include external power sources as well as battery-based operation. The availability of multiple power options makes it possible to evaluate different power scenarios and to study power consumption behavior under conditions that more closely resemble real-world use cases.
+
 ## References
 
 1. Nordic Semiconductor. (n.d.).
