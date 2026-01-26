@@ -15,6 +15,14 @@ A development kit is hardware designed to help engineers get started with a spec
 
 The primary component of the kit is the nRF5340 SoC, which integrates two Arm® Cortex®-M33 processors referred to as the Application core and the Network core. Each core has its own flash memory and RAM for code and data storage. The SoC also provides a set of peripherals associated with each core. The Application core has access to a broader set of peripherals; however, the radio subsystem is owned by the Network core.
 
+### Development Kit Peripherals and I/O
+
+The nRF5340 DK exposes the majority of the SoC's general-purpose input/output (GPIO) signals through pin headers, allowing external hardware to be connected directly to both the Application core and the Network core, subject to the SoC's pin multiplexing and ownership rules.
+
+In addition to the external headers, the development kit includes a small set of on-board peripherals intended to simplify early experimentation and bring-up. These include four user-programmable buttons and four user-programmable LEDs, which provide basic input and output capabilities without requiring external components.
+
+The board also integrates external non-volatile memory connected via the QSPI interface. This memory can be used for data storage or, depending on configuration, for execute-in-place (XIP) use cases and experimentation with memory hierarchies.
+
 ## References
 
 1. Nordic Semiconductor. (n.d.).
