@@ -29,6 +29,12 @@ During development, the nRF5340 DK is most conveniently powered via the on-board
 
 In addition to USB power, the development kit supports several alternative power supply options intended for flexibility and in-field testing. These include external power sources as well as battery-based operation. The availability of multiple power options makes it possible to evaluate different power scenarios and to study power consumption behavior under conditions that more closely resemble real-world use cases.
 
+### On-board Debugger and USB Connectivity
+
+The nRF5340 DK includes an on-board SEGGER J-Link debugger, which enables programming and debugging of the nRF5340 SoC without requiring external debug hardware. This simplifies the development setup and allows the board to be used directly with standard development tools.
+
+Connection to the development kit is made using a USB cable with a Micro-USB connector. The USB connection provides both power to the board and a communication interface to the on-board debugger, making it sufficient for most development and debugging tasks.
+
 ## References
 
 1. Nordic Semiconductor. (n.d.).
