@@ -3,5 +3,9 @@
         "blinky",
         "QSPI",
         "SEGGER"
+    ],
+    "nrf-connect.applications": [
+        "${workspaceFolder}\\projects\\app_core_blinky",
+        "${workspaceFolder}\\projects\\blinky"
     ]
 }
