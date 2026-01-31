@@ -1,11 +1,13 @@
 {
     "cSpell.words": [
         "blinky",
+        "gpios",
         "QSPI",
         "SEGGER"
     ],
     "nrf-connect.applications": [
         "${workspaceFolder}\\projects\\app_core_blinky",
-        "${workspaceFolder}\\projects\\blinky"
+        "${workspaceFolder}\\projects\\blinky",
+        "${workspaceFolder}\\projects\\network_core_blinky"
     ]
 }
