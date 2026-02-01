@@ -28,9 +28,9 @@ The canonical installation root is under `C:\tools`.
 C:\tools\nrf\
 ├─ tch\
 │  ├─ toolchains\
-│  │  └─ <hash>\            # Active toolchain used by VS Code
-│  └─ v3.2.1\                # nRF Connect SDK v3.2.1
-└─ nrf-util\                  # Global nrfutil installation
+│  │  └─ <hash>\     # Active toolchain used by VS Code
+│  └─ v3.2.1\        # nRF Connect SDK v3.2.1
+└─ nrf-util\         # Global nrfutil installation
 ```
 
 ## VS Code Behavior
