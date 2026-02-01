@@ -28,3 +28,18 @@ The plan is to resume from a clean SDK installation and then retry the minimal A
 ## 2026-01-31
 
 Spending some time setting up and re-learning the nRF Connect SDK. I have used it before, but it has been a while and I no longer clearly remember the roles of the different components. In addition, I expect that newer versions have been released since I last worked with it, so I want to get an updated and structured understanding before continuing development.
+
+## 2026-02-01
+
+Worked through the *nRF Connect for VS Code* workflow using nRF Connect SDK v3.2.1.
+
+- Created, built, and flashed a minimal **Application core blinky** successfully.
+- Verified that the Application core runs and produces output via `printk()`.
+- Created a corresponding **Network core blinky** project and built/flashed it
+  without errors, but observed no LED activity or log output from the Network
+  core.
+- Began investigating Network core start/reset behavior and debug configuration.
+- Noted that **LOG output is not yet visible** for the Application core; only
+  `printk()` output is observed.
+
+Next steps will be to fix Application core logging (RTT/UART), and figure out why the network core project does not blink any LED. Will also need to learn how to setup debug projects for both projects.

@@ -9,7 +9,7 @@
         "SEGGER"
     ],
     "nrf-connect.applications": [
-        "${workspaceFolder}\\projects\\blinky",
-        "${workspaceFolder}\\projects\\application_core_blinky"
+        "${workspaceFolder}\\projects\\application_core_blinky",
+        "${workspaceFolder}\\projects\\network_core_blinky"
     ]
 }
