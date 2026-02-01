@@ -1,7 +1,10 @@
 {
     "cSpell.words": [
         "blinky",
+        "cpuapp",
+        "eabi",
         "gpios",
+        "nrfutil",
         "QSPI",
         "SEGGER"
     ],
