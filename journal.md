@@ -43,3 +43,7 @@ Worked through the *nRF Connect for VS Code* workflow using nRF Connect SDK v3.2
   `printk()` output is observed.
 
 Next steps will be to fix Application core logging (RTT/UART), and figure out why the network core project does not blink any LED. Will also need to learn how to setup debug projects for both projects.
+
+## 2026-02-03
+
+Downloaded the schematics for the nRF5340 DK. It included a good high resolution image of the top side of the kit.
